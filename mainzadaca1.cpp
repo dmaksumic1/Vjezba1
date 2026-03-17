@@ -506,7 +506,7 @@ DvostrukaLista<int> lista;
 
     try {
         int maxi = dajMaksimum(lista);
-        std::cout << "Maksimum u listi je: " << maxi << std::endl;
+        std::cout << "Maksimum u ovoj listi je: " << maxi << std::endl;
     } catch (const std::domain_error& e) {
         std::cout << "Greska: " << e.what() << std::endl;
     }    return 0;

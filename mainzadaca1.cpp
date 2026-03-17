@@ -15,7 +15,7 @@ public:
     virtual bool prethodni()=0;
     virtual  bool sljedeci()=0;
     virtual  bool pocetak()=0;
-    virtual bool kraj()=0;
+    virtual bool kraj()=1;
     virtual  void obrisi()=0;
     virtual  void dodajIspred(const Tip& el)=0;
     virtual  void dodajIza(const Tip& el)=0;
